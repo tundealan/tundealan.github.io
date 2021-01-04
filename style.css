@@ -73,7 +73,6 @@
     height: 30rem;
     display: none;
     text-transform: lowercase;
-    box-shadow: 2px 2px 5px 5px gray;
     margin-left: 0.3rem;
     position: absolute;
     top: 4%;
@@ -81,7 +80,6 @@
 
 .navmenu #navList{
     margin-top: 8rem;
-    background-color: #fff;
 }
 
 .navmenu a{
