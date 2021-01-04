@@ -2,15 +2,9 @@
 return back to state on click*/
 function myFunction(x) {
     x.classList.toggle("change");
-  }
-
-//   
-
-var menuBar= document.getElementById("menuBar")
-var navMenu= document.getElementById("navMenu")
-
-menuBar.onclick = function() {
-    if (navMenu.style.display == "none"){
+ 	var menuBar= document.getElementById("menuBar");
+	var navMenu= document.getElementById("navMenu");
+    if (navMenu.style.display != "block"){  // changed from '=="none"
         navMenu.style.display = "block";
     }
     else{
